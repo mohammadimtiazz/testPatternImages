@@ -13,3 +13,8 @@ testPattern.py ->
 testPattern2.py ->
   create images of gray level 16 by 16 matrix and each block is a 10 by 10 grid in total size it is a 160 by 160 image with smooth gray transection
   create images of gray level 16 by 16 matrix and each block is a 13 by 13 grid in where only 10 by 10 will be filled out with gray values.image size will be 256 256 
+
+
+These output images can be used for measuring texture with different algorithm....As the input patterns are known, it will help to understand how the texture measurement algorithms are defining these patters.
+
+these images can also be used for measuring brightness changes 

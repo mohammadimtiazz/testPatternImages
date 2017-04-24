@@ -58,16 +58,16 @@ cv2.imwrite(nameImg, blankImg1)
 
 #%% Test pattern of smooth transection of gray values vertically 
 img = np.zeros((256,256), dtype = np.uint8)
-for i in range(0,255):
-    for j in range(0,255):
+for i in range(0,256):
+    for j in range(0,256):
         img[i,j] = j
 cv2.imwrite('smoothTranscitionGrayVertical.bmp', img)
 
 #%% Test pattern of smooth transection of gray values horizentally
 img = np.zeros((256,256), dtype = np.uint8)
 
-for i in range(0,255):
-    for j in range(0,255):
+for i in range(0,256):
+    for j in range(0,256):
         img[i,j] = i
 cv2.imwrite('smoothTranscitionGrayHorizental.bmp', img)
 
